@@ -1,0 +1,21 @@
+{
+  "name": "ahj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "coursar",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.14.2",
+    "ws": "^7.4.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
